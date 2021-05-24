@@ -69,7 +69,7 @@ const MoviesList= props => {
     find(searchTitle, "title")    
   }
   const findByRating = () => {
-    if(searchRating == "All Ratings"){
+    if(searchRating === "All Ratings"){
       retrieveMovies()
     }
     else{
